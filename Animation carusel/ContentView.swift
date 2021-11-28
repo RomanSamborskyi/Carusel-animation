@@ -19,9 +19,12 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 struct Home : View {
-    @State var data = [Card(id: 0, img: "im1", name: "We", show: false),
-                       Card(id: 1, img: "im2", name: "Father", show: false),
-                       Card(id: 2, img: "im3", name: "mother", show: false) ]
+    @State var data = [Card(id: 0, img: "im1", name: "Топік", show: false),
+                       Card(id: 1, img: "im2", name: "Топік", show: false),
+                       Card(id: 2, img: "im3", name: "Кнопа", show: false),
+                       Card(id: 3, img: "im4", name: "Томас", show: false),
+                       Card(id: 4, img: "im5", name: "Томас", show: false)
+    ]
 
     @State var x : CGFloat = 0
     @State var count : CGFloat = 0
