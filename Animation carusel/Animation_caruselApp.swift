@@ -11,7 +11,8 @@ import SwiftUI
 struct Animation_caruselApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Home()
+           
         }
     }
 }

@@ -10,6 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
       Home()
+          
     }
 }
 
@@ -31,9 +32,10 @@ struct Home : View {
     @State var screen = UIScreen.main.bounds.width - 30
     var body : some View {
     NavigationView{
+        
         VStack{
           Spacer()
-            
+              
             HStack(spacing: 15){
                 ForEach(data){i in
                     
@@ -76,6 +78,7 @@ struct Home : View {
             Spacer()
         }
         .background(Color.black.opacity(0.7).edgesIgnoringSafeArea(.all)).navigationTitle("Photo List")
+        .background(SnowView1())
         .animation(.spring())
         .onAppear{
             self.data[self.getMid()].show = true

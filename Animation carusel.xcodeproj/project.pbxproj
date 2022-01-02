@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B26669B27818B8100E138B1 /* SnowUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B26669A27818B8100E138B1 /* SnowUIView.swift */; };
 		6B56BF672750F0D600414336 /* Animation_caruselApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B56BF662750F0D600414336 /* Animation_caruselApp.swift */; };
 		6B56BF692750F0D600414336 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B56BF682750F0D600414336 /* ContentView.swift */; };
 		6B56BF6B2750F0D700414336 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B56BF6A2750F0D700414336 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B26669A27818B8100E138B1 /* SnowUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowUIView.swift; sourceTree = "<group>"; };
 		6B56BF632750F0D600414336 /* Animation carusel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animation carusel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B56BF662750F0D600414336 /* Animation_caruselApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation_caruselApp.swift; sourceTree = "<group>"; };
 		6B56BF682750F0D600414336 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				6B56BF662750F0D600414336 /* Animation_caruselApp.swift */,
+				6B26669A27818B8100E138B1 /* SnowUIView.swift */,
 				6B56BF682750F0D600414336 /* ContentView.swift */,
 				6B56BF6A2750F0D700414336 /* Assets.xcassets */,
 				6B56BF6C2750F0D700414336 /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B26669B27818B8100E138B1 /* SnowUIView.swift in Sources */,
 				6B56BF692750F0D600414336 /* ContentView.swift in Sources */,
 				6B56BF672750F0D600414336 /* Animation_caruselApp.swift in Sources */,
 			);
